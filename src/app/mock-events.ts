@@ -66,10 +66,7 @@ export const MOCK_EVENTS: CalendarEvent[] = [
     id: '8',
     name: 'Deloitte - Leadership Development',
     color: '#14B8A6',
-    dates: [
-      '2025-10-28', '2025-10-29',
-      '2025-11-03', '2025-11-04'
-    ]
+    dates: ['2025-10-28', '2025-10-29', '2025-11-03', '2025-11-04']
   },
   {
     id: '9',
