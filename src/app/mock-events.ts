@@ -2,7 +2,7 @@ export interface CalendarEvent {
   id: string;
   name: string;
   color: string;
-  dates: string[];
+  dates: string[]; // YYYY-MM-DD
 }
 
 export const CALENDAR_START_DATE = '2025-10-19';
@@ -142,5 +142,83 @@ export const MOCK_EVENTS: CalendarEvent[] = [
     name: 'Bloomberg - Data Analytics Day',
     color: '#06B6D4',
     dates: ['2025-10-20']
+  },
+  {
+    id: '21',
+    name: 'LinkedIn Recruiter Meetup',
+    color: '#0A66C2',
+    dates: ['2025-10-23']
+  },
+  {
+    id: '22',
+    name: 'Resume Review Workshop',
+    color: '#7C3AED',
+    dates: ['2025-10-23']
+  },
+  {
+    id: '23',
+    name: 'Networking Happy Hour',
+    color: '#F472B6',
+    dates: ['2025-10-23']
+  },
+  {
+    id: '24',
+    name: 'IBM - AI Research Presentation',
+    color: '#0F62FE',
+    dates: ['2025-11-13']
+  },
+  {
+    id: '25',
+    name: 'Twitter/X - Social Media Panel',
+    color: '#1DA1F2',
+    dates: ['2025-11-13']
+  },
+  {
+    id: '26',
+    name: 'Career Services Drop-In',
+    color: '#059669',
+    dates: ['2025-11-13']
+  },
+  {
+    id: '27',
+    name: 'Uber - Product Manager Talk',
+    color: '#000000',
+    dates: ['2025-11-13']
+  },
+  {
+    id: '28',
+    name: 'Adobe - Creative Workshop',
+    color: '#FF0000',
+    dates: ['2025-10-30']
+  },
+  {
+    id: '29',
+    name: 'Spotify - Engineering Culture Talk',
+    color: '#1DB954',
+    dates: ['2025-10-30']
+  },
+  {
+    id: '30',
+    name: 'Tesla - Manufacturing Tour',
+    color: '#CC0000',
+    dates: ['2025-10-30']
+  },
+  {
+    id: '31',
+    name: 'Netflix - Content Strategy Session',
+    color: '#E50914',
+    dates: ['2025-10-30']
+  },
+  {
+    id: '32',
+    name: 'Interview Prep Bootcamp',
+    color: '#9333EA',
+    dates: ['2025-10-30']
+  },
+  {
+    id: '33',
+    name: 'Alumni Networking Event',
+    color: '#14B8A6',
+    dates: ['2025-10-30']
   }
 ];
